@@ -4,28 +4,32 @@ tags:
 ---
 ## Beginning
 
-First, I think many people found that any html file is rendered in the event menu or the mobile web page (I think Dropbox team won't fix this problem). If we write down a JavaScript code to the html file, we can easily execute a JavaScript code on the html page. But, the script is executed on dl-web.dropbox.com. The session is a httponly cookie, so we can't easily steal the session.
+First, I think many people know that a html file uploaded on dropbox shows with rendering, and without any escaping.
+It means that, if we write down a JavaScript code to the html file, we can easily execute a JavaScript code on the html page without any problem.
+But, the script is executed on a sandbox domain, dl-web.dropbox.com.
+The important session is a httponly cookie, so we can't easily steal the user session.
 
 <p align="center"> <img src="/img/dropbox1.png" style="width: 60%;"/> </p>
 
-In this situation, I can set any cookie on dropbox.com domain. It means that it may be able to influence on www.dropbox.com. If main dropbox page do something using cookie, then maybe I can do something on www.dropbox.com 
-
+In this situation, I can set any cookie on dropbox.com domain (not www.dropbox.com).
+It means that it may be able to influence on www.dropbox.com.
+If main dropbox page do something using the cookie on dropbox.com, then maybe I can do something on www.dropbox.com 
 
 ## Vulnerability
 
-I found a some nice thing, Flash. After cookies, "flash" and "bang", are given, dropbox page draws a pop-up box which containing a text in "flash". But, "bang" was a problem. It seems like hmac of "flash". So, I need to find "bang" value of custom "flash"
+I found a some nice thing, Flash. After cookies, "flash" and "bang", are given, dropbox page draws a pop-up box which is containing a text in "flash". But, "bang" was a problem. It seems like a hmac of "flash". So, I need to find "bang" value of my custom "flash"
 
-I also found a function which unlinks device in security setting page. If I unlink a some device, then it shows me a flash message, which is containing device name. So, I set the device name (iphone name) to malicious name, and I unlinked it. 
+I also found a function which unlinks device in security setting page. If I unlink a some device, then it shows me a flash message, which is containing device name. So, I set the device name (iphone name) to a XSS text, and I unlinked it. 
 
 ## Attack
 
 ![](/img/dropbox2.png)
 
-Now, I can get "flash" and "bang" value of any text (It is self-XSS. But, it can be combined with other attacks).
+Now, I can set "flash" and "bang" value to any text.
 
 ![](/img/dropbox3.png)
 
-Then, set the cookie in html, and make victim to move page to www.dropbox.com.
+Then, set the malicious cookie in a html. After that, make victim to move page to www.dropbox.com (trigger flash message).
 
 ```javascript
 <script>
@@ -38,7 +42,7 @@ location.href="https://dropbox.com/forgot";
 ```
 
 There is a CSP.
-But, on IE or safari, script is executed.
+But, the script is executed on IE or Safari.
 
 <p align="center"> <img src="/img/dropbox4.png" style="width: 80%;"/> </p>
 

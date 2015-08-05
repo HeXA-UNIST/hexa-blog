@@ -20,8 +20,8 @@ date: 2015-08-04 21:38:27
 
 ### 2014
 
-- **2014\. 6\. [International Supercomputing Conference 14 Student Cluster Challenge](http://www.isc-events.com/isc14/student-cluster-competition.html) (ISC 14) Finalist (곽재원, 김민규, 김승회, [김태훈][2], 유인완)**
-- **2014\. 4\. [Asia student Supercomputing Challenge 14](http://www.asc-events.org/ASC14/index14en.php) (ASC 14) Finalist (곽재원, 김민규, 김승회, 유인완)**
+- **2014\. 6\. [International Supercomputing Conference 14 Student Cluster Challenge](http://www.isc-events.com/isc14/student-cluster-competition.html) (ISC 14) Finalist ([곽재원][3], 김민규, 김승회, [김태훈][2], 유인완)**
+- **2014\. 4\. [Asia student Supercomputing Challenge 14](http://www.asc-events.org/ASC14/index14en.php) (ASC 14) Finalist ([곽재원][3], 김민규, 김승회, 유인완)**
 - 2014\. 4\. PlaidCTF 2014 1100팀 중 136위
 - 2014\. 3\. [한충우][1] 효과
 - 2014\. 2\. CODEGATE 2014 예선전 283팀 중 17위 (한국팀 중 5위)
@@ -35,7 +35,7 @@ date: 2015-08-04 21:38:27
 - 2013\. 11\. 울산 화봉고 동아리 '진로설계용 앱' 개발 - [관련 기사](http://www.newsis.com/ar_detail/view.html?ar_id=NISX20131106_0012492743&cID=10814&pID=10800)
 - 2013\. 11\. 제 4회 C++ 공개 강의
 - 2013\. 10\. Hack.lu 2013 CTF 2013 413팀 중 43위 (한국팀 중 1위)
-- **2013\. 9\. 2013 국가 슈퍼컴퓨팅 경진대회 최우수상 한국과학기술정보연구원장상 (곽재원)**
+- **2013\. 9\. 2013 국가 슈퍼컴퓨팅 경진대회 최우수상 한국과학기술정보연구원장상 ([곽재원][3])**
 - **2013\. 9\. 2013 대한민국 화이트햇 콘테스트 단체전 본선 3위 (김승회, [김태훈][2], 조재민, [한충우][1])**
 - **2013\. 9\. 2013 대한민국 화이트햇 콘테스트 개인전 본선 진출 ([한충우][1])**
 - 2013\. 9\. 재학생 대상 제 3회 C++ 공개 강의
@@ -52,7 +52,7 @@ date: 2015-08-04 21:38:27
 - 2013\. 6\. 2013 KISA 해킹방어대회 전국 12위
 - 2013\. 5\. Secuinside 2013 예선 1083팀 중 35위
 - 2013\. 5\. 재학생 대상 제 2회 C++ 공개 강의
-- **2013\. 4\. [Asia student Supercomputing Challenge 13](http://www.asc-events.org/13en/index13en.php) (ASC 13) Finalist (곽재원, [김태훈][2])**
+- **2013\. 4\. [Asia student Supercomputing Challenge 13](http://www.asc-events.org/13en/index13en.php) (ASC 13) Finalist ([곽재원][3], [김태훈][2])**
 - 2013\. 4\. PlaidCTF 2013 참가
 - 2013\. 3\. UNIST 메일 시스템 취약점 발견 및 보고
 - 2013\. 3\. 4기 신입생 모집
@@ -68,13 +68,13 @@ date: 2015-08-04 21:38:27
 - 2012\. 11\. Holy shield 2012 대회 참가
 - 2012\. 11\. 재학생 대상 제 1회 c++ 공개 강의
 - 2012\. 10\. hack.lu CTF 대회 참가
-- 2012\. 10\. 제 2회 슈퍼컴퓨팅 경진대회 최우수 상 (곽재원)
+- 2012\. 10\. 제 2회 슈퍼컴퓨팅 경진대회 최우수 상 ([곽재원][3])
 - 2012\. 10\. hackyou CTF 대회 참가
 - 2012\. 10\. HeXA Facebook 페이지 개설
 - 2012\. 9\. 홈페이지 리뉴얼 by [한충우][1]
 - 2012\. 9\. AhnLab Wave 참가
 - 2012\. 9\. 3대 회장 [김태훈][2]
-- 2012\. 3\. 2대 회장 곽재원, 2대 부회장 [한충우][1]
+- 2012\. 3\. 2대 회장 [곽재원][3], 2대 부회장 [한충우][1]
 
 ### 2011
 
@@ -84,3 +84,4 @@ date: 2015-08-04 21:38:27
 
 [1]: http://blog.tunz.kr/category/Profile
 [2]: http://carpedm20.github.io/
+[3]: https://kr.linkedin.com/pub/jaewon-kwak/93/a40/113

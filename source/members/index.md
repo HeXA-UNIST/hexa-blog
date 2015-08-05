@@ -77,7 +77,7 @@ date: 2015-08-04 23:07:50
 ## 1st
 
 - 고건일 (hanulgoh)
-- 곽재원 (sovi) : M.S. candidate in UNIST C.S.
+- 곽재원 ([sovi](https://kr.linkedin.com/pub/jaewon-kwak/93/a40/113)) : M.S. candidate in UNIST C.S.
 - 김연근 (shoutnk) : M.S. candidate in KAIST
 - 이시몬 (simon)
 - 이승용 (furymonkey)

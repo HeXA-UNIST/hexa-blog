@@ -52,4 +52,3 @@ But, the script is executed on IE or Safari.
 2015/05/02 Fixed, A bounty of $1,331
 
 Author: [tunz](http://blog.tunz.kr/)
-

@@ -6,7 +6,7 @@
 npm install hexo-cli -g
 git clone https://github.com/HeXA-UNIST/hexa-blog.git
 cd hexa-blog
-git clone https://github.com/carpedm20/hexo-theme-next.git
+git clone https://github.com/carpedm20/hexo-theme-next.git themes/next
 npm install
 ```
 

@@ -2,6 +2,7 @@ title: 'PEDA - Introduction && Installation'
 date: 2014-02-25 23:33:00
 tags:
 - l34p
+- exploit
 ---
 ## Introduction
 
@@ -72,4 +73,4 @@ sudo make install
 여기까지 따라오시느라 수고 많으셨습니다!
 제대로 설치가 되었다면 아래와 같은 화면을 볼 수 있습니다.
 
-작성자: l34p
+작성자: [l34p](https://github.com/L34p/)

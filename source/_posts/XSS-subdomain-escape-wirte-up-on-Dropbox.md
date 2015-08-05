@@ -1,6 +1,9 @@
 title: XSS subdomain escape wirte up (on Dropbox)
 date: 2015-08-04 22:57:30
 tags:
+- Vulnerability
+- tunz
+- exploit
 ---
 ## Beginning
 
@@ -16,7 +19,7 @@ I found a some nice thing, Flash. After cookies, "flash" and "bang", are given, 
 
 I also found a function which unlinks device in security setting page. If I unlink a some device, then it shows me a flash message, which is containing device name. So, I set the device name (iphone name) to a XSS text, and I unlinked it. 
 
-## Attack
+## Exploit
 
 ![](/img/dropbox2.png)
 

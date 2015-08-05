@@ -2,27 +2,85 @@ title: members
 date: 2015-08-04 23:07:50
 ---
 
+## 5th
+
+- 김태현 (kgyoo8232)
+- 김주원 (kjw940506)
+- 오민선 (minsunny5)
+- 문혜진 (hyj5579)
+- 김동민 (rocky112358)
+- 김승현 (wingcoke)
+- 이지향 (haeng1605)
+- 김대화 (eoghk123)
+
 ## 4th
 
-## 3th
+- 오현준 (dhguswns23)
+- 이송이 (rookie)
+- 이창민 (ulistar93)
+- 이지수 (chorista)
+- 김유창 (jjkyc)
+- 곽희나 (dotaitch)
+- 최성용 (sychoi1996)
+- 유인완 (iwyoo)
+- 김승호 (isho)
+- 박상대 (dad0100)
+- 손수민 (ty79450)
+- 윤원준 (starjun24)
+- 송예람 (tdf3820)
+- 염준영 (yoeum0013)
+- 박채운 (woon1217)
+- 오정민 (als0414)
+- 황원준 (gwaka)
+- 이강민 (ygangmin)
+- 이광호 (khlee369)
+- 김도훈 (elvis03)
+- 문성우 (LayMoon)
+- 정승필 (smjsp7)
+- 김민찬 (minchan0712)
+- 박채영 (codud1026)
+- 이현수 (telljoy)
+- 이충기 (asdzxc6442)
+- 정인중 (mu29)
+- 남우승 (ssa1137)
+- Adina (adina)
 
-- 김민규
-- 김승회
-- 김도경
-- 김기현
+## 3rd
 
-## 2th
+- 고경완 (aqaqaqaq)
+- 정재훈 (sharksfin)
+- 김기환 (kh1875)
+- 정상빈 (tolight20)
+- 문경준 (edgar)
+- 최영희 (tiarirueu)
+- 최준원 (cdk5801)
+- 임정택 (wjdxor0405)
+- 양홍준 (yhj0428)
+- 한명균 (hmg0228)
+- 이기웅 (sopp0002)
+- 김기철 (ds3nyi)
+- 김민규 (kimmg0008)
+- 김승회 (ksh7534)
+- 김도경 (halt)
+- 김기현 (po01003)
+- 정현기 (nahouja1)
+- 이창민 (baram)
+- 김지열 (jykim7808)
+
+## 2nd
 
 - 김태훈 ([carpedm20](http://carpedm20.github.io/))
-- 정의진
-- 조재휘
+- 정의진 (nuguzi7)
+- 조재휘 (jjh94210)
 
-## 1th
+## 1st
 
-- 고건일
-- 곽재원 (sovileta) : M.S. candidate in UNIST C.S.
+- 고건일 (hanulgoh)
+- 곽재원 (sovi) : M.S. candidate in UNIST C.S.
 - 김연근 (shoutnk) : M.S. candidate in KAIST
-- 이시몬
-- 이승용
+- 이시몬 (simon)
+- 이승용 (furymonkey)
 - 조재민 (silvara)
 - 한충우 ([tunz](http://blog.tunz.kr/)) : M.S. candidate in KAIST C.S.
+- 우민규 (dnalsrb7)
+- 이승현 (lsh8482)

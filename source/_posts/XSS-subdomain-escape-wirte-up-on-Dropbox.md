@@ -2,32 +2,26 @@ title: XSS subdomain escape wirte up (on Dropbox)
 date: 2015-08-04 22:57:30
 tags:
 ---
-First, I think many people found that any html file is rendered in the event menu or the mobile web page.
-(I think Dropbox team won't fix this problem)
-if we write down a JavaScript code to the html file, we can easily execute a JavaScript code on the html page.
-But, the script is executed on dl-web.dropbox.com.
-The session is a httponly cookie, so we can't easily steal the session.
+## Beginning
 
-![](/img/dropbox1.png)
+First, I think many people found that any html file is rendered in the event menu or the mobile web page (I think Dropbox team won't fix this problem). If we write down a JavaScript code to the html file, we can easily execute a JavaScript code on the html page. But, the script is executed on dl-web.dropbox.com. The session is a httponly cookie, so we can't easily steal the session.
 
-In this situation, I can set any cookie on dropbox.com domain.
-It means that it may be able to influence on www.dropbox.com.
-If main dropbox page do something using cookie, then maybe I can do something on www.dropbox.com 
+<p align="center"> <img src="/img/dropbox1.png" style="width: 60%;"/> </p>
 
-I found a some nice thing, flash.
-After cookies, "flash" and "bang", are given, dropbox page draws a pop-up box which containing a text in "flash".
-But, "bang" was a problem. It seems like hmac of "flash".
-So, I need to find "bang" value of custom "flash"
+In this situation, I can set any cookie on dropbox.com domain. It means that it may be able to influence on www.dropbox.com. If main dropbox page do something using cookie, then maybe I can do something on www.dropbox.com 
 
 
-I found a function which unlinks device in security setting page.
-If I unlink a some device, then it shows me a flash message, which is containing device name.
-So, I set the device name (iphone name) to malicious name, and I unlinked it. 
+## Vulnerability
+
+I found a some nice thing, Flash. After cookies, "flash" and "bang", are given, dropbox page draws a pop-up box which containing a text in "flash". But, "bang" was a problem. It seems like hmac of "flash". So, I need to find "bang" value of custom "flash"
+
+I also found a function which unlinks device in security setting page. If I unlink a some device, then it shows me a flash message, which is containing device name. So, I set the device name (iphone name) to malicious name, and I unlinked it. 
+
+## Attack
 
 ![](/img/dropbox2.png)
 
-Now, I can get "flash" and "bang" value of any text.
-(It is self-XSS. But, it can be combined with other attacks.)
+Now, I can get "flash" and "bang" value of any text (It is self-XSS. But, it can be combined with other attacks).
 
 ![](/img/dropbox3.png)
 
@@ -46,7 +40,7 @@ location.href="https://dropbox.com/forgot";
 There is a CSP.
 But, on IE or safari, script is executed.
 
-![](/img/dropbox4.png)
+<p align="center"> <img src="/img/dropbox4.png" style="width: 80%;"/> </p>
 
 +) Currently, common XSS on dl-web.dropbox.com is out of scope for bounty.
 +) Now, I think a flash depends on only one session. 

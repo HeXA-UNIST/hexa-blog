@@ -63,9 +63,9 @@ $ sudo apt-get install libncurses5-dev
 ```
 6. 압축해제한 gdb소스가 있는 경로로 이동하여 아래의 내용을 입력합니다.
 ```bash
-./configure --with-python=python2
-make
-sudo make install  
+$ ./configure --with-python=python2
+$ make
+$ sudo make install  
 ```
 
 <p align="center"> <img src="/img/peda.png" style="width: 40%;"/> </p>

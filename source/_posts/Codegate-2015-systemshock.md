@@ -1,7 +1,8 @@
 title: Codegate 2015 - systemshock
-date: 2015-08-04 21:53:08
+date: 2015-04-06 12:20:08
 author: l34p
 tags:
+- l34p
 - codegate
 - ctf
 - writeup

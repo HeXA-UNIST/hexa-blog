@@ -5,10 +5,10 @@
 # Site
 title: HeXA
 subtitle:
-description: Hacker's eXciting Academy
+description: "Hacker's eXciting Academy"
 author: HeXA
 language: en
-timezone: 
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

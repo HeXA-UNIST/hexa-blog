@@ -16,12 +16,12 @@ date: 2015-08-04 23:07:50
 
 ## 4th
 
+- 김유창 (jjkyc)
+- 곽희나 ([dotaitch](https://github.com/dotaitch))
 - 오현준 (dhguswns23)
 - 이송이 (rookie)
 - 이창민 (ulistar93)
 - 이지수 (chorista)
-- 김유창 (jjkyc)
-- 곽희나 (dotaitch)
 - 최성용 (sychoi1996)
 - 유인완 (iwyoo)
 - 김승호 (isho)

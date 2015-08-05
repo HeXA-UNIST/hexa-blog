@@ -1,6 +1,6 @@
 # hexa-blog
 
-## To begin with
+## Installation
 
 ```bash
 npm install hexo-cli -g
@@ -9,14 +9,14 @@ cd hexa-blog
 npm install
 ```
 
-## To write a post
+## Write a post
 
 ```bash
 hexo new "Codegate 2015 systemshock"
 vi source/_posts/Codegate-2015-systemshock.md
 ```
 
-## To publish your post
+## Publish to web
 
 ```bash
 make deploy

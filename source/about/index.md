@@ -18,8 +18,8 @@ date: 2015-08-04 21:38:27
 ### 2015
 
 - 2015\. 5\. HeXA 해킹 세미나 (황원준, 오정민, 이송이, 이시몬, 한명균)
-- **2015\. 5\. Dropbox XSS subdomain escape 취약점 발견, award of $1,331 ([한충우][1])**
-- **2015\. 5\. Github XSS 취약점, Mac client remote code execution 취약점 발견, award of $3,500 ([한충우][1])**
+- **2015\. 5\. Dropbox XSS subdomain escape 취약점 발견, $1,331 ([한충우][1])**
+- **2015\. 5\. Github XSS 취약점, Mac client remote code execution 취약점 발견, $3,500 ([한충우][1])**
 - **2015\. 4\. "기술, 스타트업, 성공적" 제 1회 [헥사톤](https://www.facebook.com/HeXATHON) (HeXATHON) (NAVER D2 후원)**
 
 ### 2014
@@ -32,7 +32,7 @@ date: 2015-08-04 21:38:27
 
 ### 2013
 
-- **2013\. 11\. [2013 Holyshield Hacking Festival](https://www.facebook.com/CATHolyShield/photos/a.438453622859643.95021.270853396286334/634153726622964) (가톨릭대) 2개팀 참가, award of ₩1,000,000 - 1위, 7위**
+- **2013\. 11\. [2013 Holyshield Hacking Festival](https://www.facebook.com/CATHolyShield/photos/a.438453622859643.95021.270853396286334/634153726622964) (가톨릭대) 2개팀 참가, ₩1,000,000 - 1위, 7위**
 - 2013\. 11\. 예스24, 타인 계정 로그인 취약점 발견 ([김태훈][2], [한충우][1]) - [관련 기사](http://dailysecu.com/news_view.php?article_id=5781&pg=&view_url=/index.php&ct=)
 - 2013\. 11\. 메인 서버 (H.A.T) 구입 - 화이트햇 팀 일부 지원
 - 2013\. 11\. 홈페이지 리뉴얼
@@ -40,7 +40,7 @@ date: 2015-08-04 21:38:27
 - 2013\. 11\. 제 4회 C++ 공개 강의
 - 2013\. 10\. Hack.lu 2013 CTF 2013 413팀 중 43위 (한국팀 중 1위)
 - **2013\. 9\. 2013 국가 슈퍼컴퓨팅 경진대회 최우수상 한국과학기술정보연구원장상 ([곽재원][3])**
-- **2013\. 9\. [2013 대한민국 화이트햇 콘테스트](http://www.whitehatcontest.com/) 단체전 본선 3위, award of ₩8,000,000 (김승회, [김태훈][2], 조재민, [한충우][1])**
+- **2013\. 9\. [2013 대한민국 화이트햇 콘테스트](http://www.whitehatcontest.com/) 단체전 본선 3위, ₩8,000,000 (김승회, [김태훈][2], 조재민, [한충우][1])**
 - **2013\. 9\. [2013 대한민국 화이트햇 콘테스트](http://www.whitehatcontest.com/) 개인전 본선 진출 ([한충우][1])**
 - 2013\. 9\. 재학생 대상 제 3회 C++ 공개 강의
 - 2013\. 9\. UNIST 재학생 대상 제 1회 C++ 튜터링

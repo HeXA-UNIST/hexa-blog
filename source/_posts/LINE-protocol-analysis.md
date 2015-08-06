@@ -8,7 +8,7 @@ tags:
 
 After I analyzed [LOCO protocol](http://carpedm20.blogspot.kr/2013/08/python-wrapper-for-loco-protocol.html) of KakaoTalk, I've been curious about the operation of other messaging applications. Like KakaoTalk, [LINE](http://line.naver.jp/) is the instant messaging application on smartphones and PCs. LINE is not popular in Korea, but media currently said that LINE is one of the most popular messaging app in Japan. So, I decided to analyze the protocol of LINE and I'll record the steps that I followed in this post. My final goal is to implement the LINE protocol in python, especially sending and receiving messages.
 
-<p align="center"> <img src="/img/line1.png" style="width: 40%;"/> </p>
+<p align="center"> <img src="/img/line1.jpg" style="width: 20%;"/> </p>
 
 ## 1. Download xap file
 

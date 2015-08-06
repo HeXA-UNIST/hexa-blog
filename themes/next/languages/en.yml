@@ -46,7 +46,7 @@ counter:
   archive_posts:
     zero: No posts.
     one: 1 post.
-    other: "%d posts in total."
+    other: " "
 
 state:
   posts: posts
@@ -55,14 +55,14 @@ state:
   categories: categories
 
 cheers:
-  um: Um..
+  um: "Hacker's eXciting Academy"
   ok: OK
   nice: Nice
   good: Good
   great: Great
   excellent: Excellent
 
-keep_on: Keep on posting.
+keep_on: " "
 
 symbol:
   comma: ', '

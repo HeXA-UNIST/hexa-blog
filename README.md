@@ -23,6 +23,14 @@ vi source/_posts/Codegate-2015-systemshock.md
 vi source/_posts/filename-to-edit.md
 ```
 
+## Check the website on local server
+
+Type below command and go to http://0.0.0.0:4000/ to check your change.
+
+```bash
+hexo server
+```
+
 ## Publish to web
 
 Don't use `git add .` `git commit -m "blabla"` things. Just type,

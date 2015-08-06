@@ -1,4 +1,4 @@
-title: seminar
+title: Seminar
 date: 2015-08-05 07:48:15
 comments: false
 ---

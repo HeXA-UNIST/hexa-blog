@@ -31,6 +31,7 @@
 {% if config.description %}
     <meta name="description" content="{{ config.description }}" />
 {% endif %}
+    <meta property="og:image" content="https://raw.githubusercontent.com/HeXA-UNIST/hexa-blog/master/source/img/hexa_logo.png" />
 
 {% if page.tags and page.tags.length %}
   <meta name="keywords" content="{% for tag in page.tags %}{{ tag.name }},{% endfor %}" />

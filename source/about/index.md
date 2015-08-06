@@ -20,7 +20,7 @@ comments: false
 
 - 2015\. 5\. HeXA 해킹 세미나 (황원준, 오정민, 이송이, 이시몬, 한명균)
 - **2015\. 5\. Dropbox XSS subdomain escape 취약점 발견, $1,331 ([한충우][1])**
-- **2015\. 5\. Github XSS 취약점, Mac client remote code execution 취약점 발견, $3,500 ([한충우][1])**
+- **2015\. 5\. Github XSS 취약점, Mac client remote code execution 취약점 발견, $2,500 ([한충우][1])**
 - **2015\. 4\. "기술, 스타트업, 성공적" 제 1회 [헥사톤](https://www.facebook.com/HeXATHON) (HeXATHON) (NAVER D2 후원)**
 
 ### 2014

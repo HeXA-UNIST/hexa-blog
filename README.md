@@ -17,7 +17,16 @@ hexo new "Codegate 2015 systemshock"
 vi source/_posts/Codegate-2015-systemshock.md
 ```
 
+
+## Edit a post
+
+```bash
+vi source/_posts/filename-to-edit.md
+```
+
 ## Publish to web
+
+Don't use `git add .` `git commit -m "blabla"` things. Just type,
 
 ```bash
 make deploy

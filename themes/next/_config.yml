@@ -50,6 +50,8 @@ scheme: Mist
 #sidebar: always
 sidebar: hide
 
+disqus_shortname: "hexa-unist"
+
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
@@ -89,8 +91,6 @@ vendors: vendors
 css: css
 js: js
 images: images
-
-disqus_shortname: "hexa-unist"
 
 # Theme version
 version: 0.4.5.1

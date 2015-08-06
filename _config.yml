@@ -73,3 +73,5 @@ deploy:
   repo: https://github.com/HeXA-UNIST/hexa-unist.github.io.git
   branch: master
   message: update
+
+disqus_shortname: "hexa-unist"

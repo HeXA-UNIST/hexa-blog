@@ -32,14 +32,14 @@ pdisas는 gdb에서 쓰던 disas 명령어의 확장판입니다.
 
 ### How to use
 
-```
-$ pdisas "Function Name"
+```bash
+gdb-peda$ pdisas "Function Name"
 ```
 
 ### Example
 
-```
-$ pdisas main
+```bash
+gdb-peda$ pdisas main
 ```
 
 
@@ -52,15 +52,15 @@ context 명령어는 별다른 기능이 아니라 맨 처음에 보여드렸던
 ### How to use
 
 ```bash
-$ context "code/register/stack/all" ( context 만 입력시엔 context all 과 같습니다. )
+gdb-peda$ context "code/register/stack/all" ( context 만 입력시엔 context all 과 같습니다. )
 ```
 
 ### Example
 
 ```bash
-$ context
-$ context code
-$ context all
+gdb-peda$ context
+gdb-peda$ context code
+gdb-peda$ context all
 ```
 
 ## session save / restore
@@ -75,17 +75,17 @@ session 명령어! 정말 편리한 기능을 제공하는 명령어입니다.
 ### How to use
 
 ```bash
-$ session save "파일이름" ( 파일이름 생략시엔 peda-session-"실행파일이름".txt 로 저장 )
-$ session restore "파일이름" ( 파일이름 생략시엔 peda-session-"실행파일이름".txt 로드 )
+gdb-peda$ session save "파일이름" ( 파일이름 생략시엔 peda-session-"실행파일이름".txt 로 저장 )
+gdb-peda$ session restore "파일이름" ( 파일이름 생략시엔 peda-session-"실행파일이름".txt 로드 )
 ```
 
 ### Example
 
 ```bash
-$ session save
-$ session restore
-$ session save MySession
-$ session restore MySession
+gdb-peda$ session save
+gdb-peda$ session restore
+gdb-peda$ session save MySession
+gdb-peda$ session restore MySession
 ```
 
 ## snapshot save / restore 
@@ -108,15 +108,15 @@ $ session restore MySession
 ### How to use
 
 ```bash
-$ vmmap "all/binary/libc/stack/ld ..." ( 인자를 생략할 시에는 vmmap all 과 같습니다. )
+gdb-peda$ vmmap "all/binary/libc/stack/ld ..." ( 인자를 생략할 시에는 vmmap all 과 같습니다. )
 ```
 
 ### Example
 
 ```bash
-$ vmmap
-$ vmmap libc
-$ vmmap stack
+gdb-peda$ vmmap
+gdb-peda$ vmmap libc
+gdb-peda$ vmmap stack
 ```
 
 
@@ -133,7 +133,7 @@ $ vmmap stack
 ### How to use
 
 ```bash
-$ checksec
+gdb-peda$ checksec
 ```
 
 ## nxtest
@@ -147,7 +147,7 @@ nxtest는 말그대로 NX 가 걸려있는지 테스트 해주는 명령어로 �
 ### How to use
 
 ```bash
-$ nxtest
+gdb-peda$ nxtest
 ```
 
 ## procinfo / getpid
@@ -160,8 +160,8 @@ pid만 필요하다면 getpid 명령어를 사용하는걸로 pid만 얻을수�
 ### How to use
 
 ```bash
-$ procinfo
-$ getpid
+gdb-peda$ procinfo
+gdb-peda$ getpid
 ```
 
 
@@ -177,14 +177,14 @@ $ getpid
 ### How to use
 
 ```bash
-$ elfsymbol "symbol" ( 인자를 생략하면 symbol들을 모두 보여줍니다. )
+gdb-peda$ elfsymbol "symbol" ( 인자를 생략하면 symbol들을 모두 보여줍니다. )
 ```
 
 ### Example
 
 ```bash
-$ elfsymbol
-$ elfsymbol printf
+gdb-peda$ elfsymbol
+gdb-peda$ elfsymbol printf
 ```
 
 
@@ -197,14 +197,14 @@ elfheader 명령어는 현재 디버깅 중인 바이너리의 헤더 정보들�
 ### How to use
 
 ```bash
-$ elfheader
+gdb-peda$ elfheader
 ```
 
 ### Example
 
 ```bash
-$ elfheader
-$ elfheader .bss
+gdb-peda$ elfheader
+gdb-peda$ elfheader .bss
 ```
 
 
@@ -218,13 +218,13 @@ find와 searchmem 은 동일한 명령어로 아무거나 선호하는 걸로 �
 ### How to use
 
 ```bash
-$ find/searchmem "pattern" "범위" ( 범위부분을 생략하면 binary 영역으로 세팅 됩니다.)
+gdb-peda$ find/searchmem "pattern" "범위" ( 범위부분을 생략하면 binary 영역으로 세팅 됩니다.)
 ```
 
 ### Example
 
 ```bash
-$ find /bin/sh libc
+gdb-peda$ find /bin/sh libc
 ```
 
 
@@ -239,22 +239,22 @@ dumprop도 비슷한 명령어인데, 이 명령어는 특정 가젯을 찾기 �
 ### How to use
 
 ```bash
-$ ropgadget binary/libc/vdso/all ... ( 인자를 생략하면 ropgadget binary 와 같습니다. )
-$ ropsearch "gadget" "범위" ( gadget 부분을 '' 로 빈 상태로 보내면 모든 가젯을 찾습니다. )
-$ dumprop "범위" ( 인자를 생략하면 dumprop binary 와 같습니다. )
+gdb-peda$ ropgadget binary/libc/vdso/all ... ( 인자를 생략하면 ropgadget binary 와 같습니다. )
+gdb-peda$ ropsearch "gadget" "범위" ( gadget 부분을 '' 로 빈 상태로 보내면 모든 가젯을 찾습니다. )
+gdb-peda$ dumprop "범위" ( 인자를 생략하면 dumprop binary 와 같습니다. )
 ```
 
 ### Example
 
 ```bash
-$ ropgadget
-$ ropgadget libc
-$ ropsearch "add esp, ?" binary
-$ ropsearch "int 0x80" libc
-$ ropsearch "" binary ( binary 범위에서 모든 가젯을 찾습니다. )
-$ ropsearch "pop ?" 0x08048000 0x0804b000
-$ dumprop binary
-$ dumprop 0x08048000 0x0804b000
+gdb-peda$ ropgadget
+gdb-peda$ ropgadget libc
+gdb-peda$ ropsearch "add esp, ?" binary
+gdb-peda$ ropsearch "int 0x80" libc
+gdb-peda$ ropsearch "" binary ( binary 범위에서 모든 가젯을 찾습니다. )
+gdb-peda$ ropsearch "pop ?" 0x08048000 0x0804b000
+gdb-peda$ dumprop binary
+gdb-peda$ dumprop 0x08048000 0x0804b000
 ```
 
 
@@ -267,18 +267,18 @@ $ dumprop 0x08048000 0x0804b000
 
 ### How to use
 
-```
-$ jmpcall "register" "범위" (인자들을 모두 생략하면 jmpcall "" binary 와 같으며, 바이너리 영영 내 모든 jmp, call 가젯들을 찾아줍니다.)
+```bash
+gdb-peda$ jmpcall "register" "범위" (인자들을 모두 생략하면 jmpcall "" binary 와 같으며, 바이너리 영영 내 모든 jmp, call 가젯들을 찾아줍니다.)
 ```
 
 ### Example
 
-```
-$ jmpcall
-$ jmpcall "" libc
-$ jmpcall esp libc
-$ jmpcall [eax] libc
-$ jmpcall eax ( jmpcall eax binary 와 같습니다. )
+```bash
+gdb-peda$ jmpcall
+gdb-peda$ jmpcall "" libc
+gdb-peda$ jmpcall esp libc
+gdb-peda$ jmpcall [eax] libc
+gdb-peda$ jmpcall eax ( jmpcall eax binary 와 같습니다. )
 ```
 
 ## shellcode
@@ -292,8 +292,8 @@ PEDA에는 기본적으로 제공해주는 쉘코드가 몇 가지 있는데 she
 
 ### Example
 
-```
-$ shellcode generate x86/linux exec
+```bash
+gdb-peda$ shellcode generate x86/linux exec
 ```
 
 이 외에도 PEDA는 많은 기능들을 제공하는데, PEDA에서 제공하는 다른 기능들도 살펴보시고 싶으시면, phelp 또는 peda help 를 입력하셔서 쭉 훑어보시면 됩니다.

@@ -1,5 +1,6 @@
 title: seminar
 date: 2015-08-05 07:48:15
+comments: false
 ---
 - 2015\.02\. [[D2 campus seminar] 개발자들이 꼭 알아야 할 보안 이야기](http://www.slideshare.net/deview/d2-campus-seminar-45210063) - [한충우][1]
 - 2014\.08\. [[D2 campus seminar] 140분의 파이썬](https://carpedm20.github.io/140min-python) - [김태훈][2]

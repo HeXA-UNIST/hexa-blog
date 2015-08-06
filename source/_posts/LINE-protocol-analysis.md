@@ -4,6 +4,9 @@ tags:
 - reverse engineering
 - carpedm20
 ---
+
+# Let's send a message
+
 *If you need a python code right away, then please keep in touch with https://github.com/carpedm20/LINE*
 
 After I analyzed [LOCO protocol](http://carpedm20.blogspot.kr/2013/08/python-wrapper-for-loco-protocol.html) of KakaoTalk, I've been curious about the operation of other messaging applications. Like KakaoTalk, [LINE](http://line.naver.jp/) is the instant messaging application on smartphones and PCs. LINE is not popular in Korea, but media currently said that LINE is one of the most popular messaging app in Japan. So, I decided to analyze the protocol of LINE and I'll record the steps that I followed in this post. My final goal is to implement the LINE protocol in python, especially sending and receiving messages.
@@ -90,5 +93,143 @@ if __name__ == '__main__':
 It worked pretty well!
 
 <p align="center"> <img src="/img/line6.png" style="width: 80%;"/> </p>
+
+# HTTP(S) data
+
+Now, I decide to analyze the LINE protocol in more detail.
+
+## 4. HTTP(S) Analysis
+
+<p align="center"> <img src="/img/line7.png" style="width: 80%;"/> </p>
+
+There are two particular headers, one is `X-Line-Application` and the other is `X-Line-Access`. The first header, `X-Line-Application`, specify the kind of mobile phone, which is not that interesting one ;(
+
+However, the second header `X-Line-Access` seems like a session key and part of the key is encrypted by Base64. I'll talk about this later. Anyway, after I decode the encrypted data, I can get `iat: 1378973334524` (string data) and `��" [���<Z� � 5wxwO�` (byte[] data)
+
+<p align="center"> <img src="/img/line8.png" style="width: 80%;"/> </p>
+
+The format of POST data seems like 'bson' string which is used in LOCO protocol but it isn't. To find out how the application deals with the session key and what kind of data type is used for POST data, I used .NET Reflector again and find out some interesting functions like `send_sendMessage(int seq, Message message)`.
+
+<p align="center"> <img src="/img/line9.png" style="width: 80%;"/> </p>
+
+As you can see in this picture, there is a string `sendMessage` which also can be found in the POST data. Therefore, I guess that this `sendMessage` function makes the POST data. I also figure out that WriteMessageBegin() and WriteMessageEnd() are the functions for **Thrift platform**. I keep read some posts and decompiled codes to find out how Thrift works, but I can't figure out the exact structure of Thrift HTTP protocol.
+
+```python
+## VERSION of Thrift protocol ##
+# TBinaryProtocol.VERSION_1 | type
+data = '\x80\x01\x00\x01'
+
+## Function ##
+# \x00\x00\x00\x0b : sendMessage
+# \x00\x00\x00\x0f : fetchOperations, for read message
+data += '\x00\x00\x00\x0b' # length of function
+data += 'sendMessage'
+
+## Message information for static message ##
+## (not include sticker information) ##
+data += '\x00\x00\x00\x00'
+data += '\x08\x00\x01\x00'
+data += '\x00\x00\x00\x0c'
+data += '\x00\x02\x0b\x00'
+
+# \x01\x00\x00\x00 : from
+# \x02\x00\x00\x00 : to
+data += '\x02\x00\x00\x00' # to
+data += '????' # chat id to send message
+data += '\x0b\x00\x0a' # ChatId footer
+
+## User input : not included in Thift protocol ##
+message = raw_input(">> ")
+
+## Length of message ##
+#data += '\x00\x00\x00\x10' # \x06 : length
+data += struct.pack('>I',len(message))
+
+## Message ##
+#for i in range(16):
+#    data += chr(49 + i) # 65 : A, 49 : 1
+data += message
+
+## Message footer ##
+#data += '\x0a\x02\x00\x0e\x00\x00\x00'
+data += '\x02\x00\x0e\x00\x00\x00'
+```
+
+The bellow picture is the structure of Thrift packet based on the packet analysis that I took. (which may include some errors)
+
+<p align="center"> <img src="/img/line10.png" style="width: 80%;"/> </p>
+
+And the bellow code is a short python code which can be used to send message to someone (not me).
+
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+__author__ = 'carpedm20'
+import urllib2
+import struct
+
+url = 'http://gm.line.naver.jp/S3'
+headers = { 'POST' : '/S3',
+    'X-Line-Application' : 'WINPHONE.1.7.0.71.WindowsPhone.7.10.7720',
+    'Referer' : 'file:///Applications/Install/A18DAAA9-9A1C-4064-91DD-794644CD88E7/Install/',
+    'Accept-Encoding' : 'identity',
+    'Content-Type' : 'application/x-thrift',
+    'Accept' : 'application/x-thrift',
+    'X-Line-Access' : '????';
+    'Connection' : 'Keep-Alive',
+    'User-Agent' : 'WindowsPhone 1.7.0.71',
+    'HOST' : 'gm.line.naver.jp',
+    'Cache-Control' : 'no-cache'}
+
+def send():
+    data = '\x80\x01\x00\x01\x00\x00\x00\x0b'
+    data += 'sendMessage'
+    data += '\x00\x00\x00\x00\x08\x00\x01\x00\x00\x00\x00\x0c\x00\x02\x0b\x00\x02\x00\x00\x00'
+    data += '????' # chat id to send message
+    data += '\x0b\x00\x0a'
+    message = raw_input(">> ")
+    data += struct.pack('>I',len(message))
+    data += message
+    data += '\x02\x00\x0e\x00\x00\x00'
+
+    request = urllib2.Request(url, data, headers)
+    response = urllib2.urlopen(request)
+
+    print "[*] Result "
+
+    data = response.read()
+    for d in data:
+        print "%#x" % ord(d),
+    print
+
+def read():
+    data = '\x80\x01\x00\x01' # TBinaryProtocol.VERSION_1 | type
+    data += '\x00\x00\x00\x0f'
+
+    data += 'fetchOperations'
+    data += '\x00\x00\x00\x00\x0a'
+    data += '\x00\x02\x00\x00\x00\x00\x00\x00\x00\xf9\x08\x00\x03\x00\x00\x00\x14\x00'
+
+    request = urllib2.Request(url, data, headers)
+    response = urllib2.urlopen(request)
+
+    print "[*] Result "
+
+   
+    data = response.read()
+    for d in data:
+        print "%#x" % ord(d),
+    print
+    print data
+
+while 1:
+    send()
+```
+
+I can also figure out how to send an emoticon message through LINE. I wish I can send some emoticons, which I have to buy to use them, but it doesn't worked with an error message **"current user does not have this sticker"** :(
+
+ps. you can send some charged emoticons in LOCO protocol for nothing :)
+
+<p align="center"> <img src="/img/line11.png" style="width: 80%;"/> </p>
 
 Author: [carpedm20](http://carpedm20.github.io/)

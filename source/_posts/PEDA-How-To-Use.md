@@ -73,17 +73,23 @@ session 명령어! 정말 편리한 기능을 제공하는 명령어입니다.
 위 그림에서도 맨 처음에 info b 를 했을때, "No breakpoints or watchpoints" 가 나오는데 session restore 명령어를 치고 난 후 info b 를 해보면 저장해 놓았던 설정들을 그대로 가져오는 것을 볼 수 있습니다. 
 
 ### How to use
-session save "파일이름" ( 파일이름 생략시엔 peda-session-"실행파일이름".txt 로 저장 )
-session restore "파일이름" ( 파일이름 생략시엔 peda-session-"실행파일이름".txt 로드 )
+
+```bash
+$ session save "파일이름" ( 파일이름 생략시엔 peda-session-"실행파일이름".txt 로 저장 )
+$ session restore "파일이름" ( 파일이름 생략시엔 peda-session-"실행파일이름".txt 로드 )
+```
 
 ### Example
-session save
-session restore
-session save MySession
-session restore MySession
 
+```bash
+$ session save
+$ session restore
+$ session save MySession
+$ session restore MySession
+```
 
 ## snapshot save / restore 
+
 이것도 상당히 재밌는 기능인데, session 이 break point나 watch point 들을 저장하고 불러온다면 이 명령어는 아예 현재 디버깅중인 프로세스의 스냅샷을 찍어 저장하고 불러올수있게 합니다. 사용법은 session과 동일합니다.
 
 
@@ -154,8 +160,8 @@ pid만 필요하다면 getpid 명령어를 사용하는걸로 pid만 얻을수�
 ### How to use
 
 ```bash
-procinfo
-getpid
+$ procinfo
+$ getpid
 ```
 
 
@@ -218,7 +224,7 @@ $ find/searchmem "pattern" "범위" ( 범위부분을 생략하면 binary 영역
 ### Example
 
 ```bash
-find /bin/sh libc
+$ find /bin/sh libc
 ```
 
 
@@ -262,18 +268,17 @@ $ dumprop 0x08048000 0x0804b000
 ### How to use
 
 ```
-jmpcall "register" "범위" 
-( 인자들을 모두 생략하면 jmpcall "" binary 와 같으며, 바이너리 영영 내 모든 jmp, call 가젯들을 찾아줍니다. )
+$ jmpcall "register" "범위" (인자들을 모두 생략하면 jmpcall "" binary 와 같으며, 바이너리 영영 내 모든 jmp, call 가젯들을 찾아줍니다.)
 ```
 
 ### Example
 
 ```
-jmpcall
-jmpcall "" libc
-jmpcall esp libc
-jmpcall [eax] libc
-jmpcall eax ( jmpcall eax binary 와 같습니다. )
+$ jmpcall
+$ jmpcall "" libc
+$ jmpcall esp libc
+$ jmpcall [eax] libc
+$ jmpcall eax ( jmpcall eax binary 와 같습니다. )
 ```
 
 ## shellcode
@@ -288,7 +293,7 @@ PEDA에는 기본적으로 제공해주는 쉘코드가 몇 가지 있는데 she
 ### Example
 
 ```
-shellcode generate x86/linux exec
+$ shellcode generate x86/linux exec
 ```
 
 이 외에도 PEDA는 많은 기능들을 제공하는데, PEDA에서 제공하는 다른 기능들도 살펴보시고 싶으시면, phelp 또는 peda help 를 입력하셔서 쭉 훑어보시면 됩니다.

@@ -70,7 +70,7 @@ comments: false
 
 ## 2nd
 
-- 김태훈 ([carpedm20](http://carpedm20.github.io/))
+- 김태훈 ([carpedm20](http://carpedm20.github.io/)) : Lawrence Berkeley National Laboratory.
 - 정의진 (nuguzi7)
 - 조재휘 (jjh94210)
 

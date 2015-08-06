@@ -92,7 +92,8 @@ if __name__ == '__main__':
 
 It worked pretty well!
 
-<p align="center"> <img src="/img/line6.png" style="width: 80%;"/> </p>
+<p align="center"> <img src="/img/line6.png" style="width: 90%;"/> </p>
+
 
 # HTTP(S) data
 
@@ -106,11 +107,11 @@ There are two particular headers, one is `X-Line-Application` and the other is `
 
 However, the second header `X-Line-Access` seems like a session key and part of the key is encrypted by Base64. I'll talk about this later. Anyway, after I decode the encrypted data, I can get `iat: 1378973334524` (string data) and `��" [���<Z� � 5wxwO�` (byte[] data)
 
-<p align="center"> <img src="/img/line8.png" style="width: 80%;"/> </p>
+<p align="center"> <img src="/img/line8.png" style="width: 90%;"/> </p>
 
 The format of POST data seems like 'bson' string which is used in LOCO protocol but it isn't. To find out how the application deals with the session key and what kind of data type is used for POST data, I used .NET Reflector again and find out some interesting functions like `send_sendMessage(int seq, Message message)`.
 
-<p align="center"> <img src="/img/line9.png" style="width: 80%;"/> </p>
+<p align="center"> <img src="/img/line9.png" style="width: 90%;"/> </p>
 
 As you can see in this picture, there is a string `sendMessage` which also can be found in the POST data. Therefore, I guess that this `sendMessage` function makes the POST data. I also figure out that WriteMessageBegin() and WriteMessageEnd() are the functions for **Thrift platform**. I keep read some posts and decompiled codes to find out how Thrift works, but I can't figure out the exact structure of Thrift HTTP protocol.
 
@@ -157,7 +158,7 @@ data += '\x02\x00\x0e\x00\x00\x00'
 
 The bellow picture is the structure of Thrift packet based on the packet analysis that I took. (which may include some errors)
 
-<p align="center"> <img src="/img/line10.png" style="width: 80%;"/> </p>
+<p align="center"> <img src="/img/line10.png" style="width: 50%;"/> </p>
 
 And the bellow code is a short python code which can be used to send message to someone (not me).
 
@@ -230,6 +231,6 @@ I can also figure out how to send an emoticon message through LINE. I wish I can
 
 ps. you can send some charged emoticons in LOCO protocol for nothing :)
 
-<p align="center"> <img src="/img/line11.png" style="width: 80%;"/> </p>
+<p align="center"> <img src="/img/line11.png" style="width: 90%;"/> </p>
 
 Author: [carpedm20](http://carpedm20.github.io/)

@@ -32,6 +32,8 @@ Don't use `git add .` `git commit -m "blabla"` things. Just type,
 make deploy
 ```
 
+See [Makefile](https://github.com/HeXA-UNIST/hexa-blog/blob/master/Makefile) to see the details of this magic command.
+
 ## Copyright
 
 Copyright :copyright: 2015 HeXA.

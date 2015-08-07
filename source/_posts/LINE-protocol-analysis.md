@@ -233,4 +233,167 @@ ps. you can send some charged emoticons in LOCO protocol for nothing :)
 
 <p align="center"> <img src="/img/line11.png" style="width: 90%;"/> </p>
 
+
+# Session key
+
+Finally, I want to talk about session key  and auth key.
+
+
+## 5. Session key
+
+At first, I tried to follow UpdateAuthToken() function because this function adds the `X-Line-Access` header to the HTTP protocol. As I followed this function, I finally arrived to create() function which updates the old session key. It wasn't hard to understand how this function updates authKey, but I couldn't figure out when LINE change an auth key.
+
+It seems like LINE's session key is changed when a user change his/her mobile phone or re-install the application. In other words, the session key **won't be changed** if you don't erase or change your mobile phone. This can cause security problems if someone change the code of LINE application and distribute it to the internet...but I don't think it will happen :)
+
+Bellow is the list of functions that I followed to find out how LINE update their authorization key.
+
+```csharp
+public void UpdateAuthToken(string authKey)
+{
+    if (authKey != null)
+    {
+        this._transport.AddRequestHeader("X-Line-Access", AccessTokenHelper.GetAccessToken(authKey)); // add "X-Line-Access" header to HTTP(s) protocol
+    }
+}
+
+public void UpdateAuthToken(string authKey)
+{
+    try
+    {
+        if (authKey != null)
+        {
+            this._transport.AddRequestHeader("X-Line-Access", AccessTokenHelper.GetAccessToken(authKey)); // add "X-Line-Access" header to HTTP(s) protocol
+        }
+    }
+    catch (Exception)
+    {
+    }
+}
+
+private void _addCustomHeader(HttpWebRequest httpWebRequest)
+{
+    Profile current = ProfileViewModel.GetInstance().Current;
+    httpWebRequest.get_Headers().set_Item("X-Line-Access", AccessTokenHelper.GetAccessToken(current.AuthKey)); // add "X-Line-Access" header to HTTP(s) protocol
+    httpWebRequest.get_Headers().set_Item("X-Line-Application", DeviceUtility.GetLineApplicationString());
+    httpWebRequest.get_Headers().set_Item("Cache-Control", "no-cache");
+    httpWebRequest.get_Headers().set_Item("Pragma", "no-cache");
+}
+
+public static string GetAccessToken(string authKey)
+{
+    long timestamp = (DateTime.get_UtcNow() - new DateTime(0x7b2, 1, 1, 0, 0, 0, 1)).get_TotalMilliseconds(); // use time stamp for making access token
+    return GetAccessToken(timestamp, authKey);
+}
+
+public static string GetAccessToken(long timestamp, string authKey)
+{
+    if (((_accessToken == "") || !_accessToken.Equals(_lastAuthToken)) || (timestamp > (_lastUpdated + 0x5265c00L)))
+    {
+        lock (_thisLock)
+        {
+            _accessToken = Generate(authKey, timestamp);
+            _lastUpdated = timestamp;
+            _lastAuthToken = authKey;
+        }
+    }
+    return _accessToken;
+}
+
+public static string Generate(string authToken, long timestamp)
+{
+    string[] strArray = authToken.Split(new char[] { ':' });
+    if (strArray.Length != 2)
+    {
+        throw new ArgumentException("authToken");
+    }
+    string issueTo = strArray[0]; // use previous authToken for the new authToken
+    string encodedSecretKey = strArray[1]; // use previous authToken for the new authToken
+    string str3 = YamlWebToken.Create(issueTo, timestamp, encodedSecretKey);
+    return (issueTo + ":" + str3);
+}
+
+public class YamlWebToken
+{
+    // Fields
+    public static HmacAlgorithm DEFAULT_ALOGORITHM; // use Hmac algorith for generating token
+    // Methods
+    static YamlWebToken();
+    public YamlWebToken();
+    public static string Create(string issueTo, long timestamp, string encodedSecretKey);
+    public static string Create(string issuedTo, long timestamp, string encodedSecretKey, HmacAlgorithm algorithm);
+    // Nested Types
+    public class HmacAlgorithm
+    {
+        // Methods
+        public HmacAlgorithm(string name);
+        public static HMAC CreateInstance(string name, byte[] key);
+        // Properties
+        public string Name { get; set; }
+    }
+}
+
+public static string Create(string issueTo, long timestamp, string encodedSecretKey)
+{
+    return Create(issueTo, timestamp, encodedSecretKey, DEFAULT_ALOGORITHM);
+}
+
+public static string Create(string issuedTo, long timestamp, string encodedSecretKey, HmacAlgorithm algorithm)
+{
+    string str = "";
+    try
+    {
+        // core algorithm to make new session key
+        string str2 = string.Format("iat: {1}\n", issuedTo, timestamp); 
+        string str3 = Convert.ToBase64String(Encoding.get_UTF8().GetBytes(str2));
+        string str4 = string.Empty;
+        string str5 = str3 + "." + str4;
+        byte[] key = Convert.FromBase64String(encodedSecretKey);
+        string str6 = Convert.ToBase64String(HmacAlgorithm.CreateInstance(algorithm.Name, key).ComputeHash(Encoding.get_UTF8().GetBytes(str5)));
+        str = str5 + "." + str6; // base64(issuedTo) + '..' + Hmac(SecretKey)
+    }
+    catch (Exception)
+    {
+    }
+    return str;
+}
+```
+
+Anyway, I wrote an C# code that make updated session key... 
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String issuedTo = "1" ;
+            DateTime l = DateTime .UtcNow;
+            long timestamp = (long )((l - new DateTime(1970, 1, 1, 0, 0, 0, 1)).TotalMilliseconds);
+            String authToken = "????" // your old session key
+
+            string[] strArray = authToken.Split(new char[] { ':' });
+            string issueTo = strArray[0];
+            string encodedSecretKey = strArray[1];
+
+            string str2 = string .Format("iat: {1}\n", issuedTo, timestamp);
+            string str3 = Convert .ToBase64String(Encoding.UTF8.GetBytes(str2));
+            string str4 = string .Empty;
+            string str5 = str3 + "." + str4;
+
+            byte[] key = Convert .FromBase64String(encodedSecretKey);
+
+            string str6 = Convert.ToBase64String(LINE.Service.YamlWebToken .HmacAlgorithm.CreateInstance(LINE.Service.YamlWebToken.DEFAULT_ALOGORITHM.Name, key).ComputeHash(Encoding.UTF8.GetBytes(str5)));
+
+            String str = str5 + "." + str6;  // base64(issuedTo) + '..' + Hmac(SecretKey)
+        }
+    }
+}
+```
+
 Author: [carpedm20](http://carpedm20.github.io/)

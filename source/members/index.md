@@ -79,7 +79,7 @@ comments: false
 
 - 고건일 (hanulgoh)
 - 곽재원 ([sovi](https://kr.linkedin.com/pub/jaewon-kwak/93/a40/113)) : M.S. candidate in UNIST C.S.
-- 김연근 (shoutnk) : Ph.D candidate in KAIST
+- 김연근 ([shoutnk](http://nss.kaist.ac.kr/)) : Ph.D. candidate in KAIST
 - 이시몬 (simon)
 - 이승용 (furymonkey)
 - 조재민 (silvara) : M.S. candidate in UNIST C.S.

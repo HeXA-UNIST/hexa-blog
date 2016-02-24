@@ -24,7 +24,8 @@ comments: false
 - 이창민 (ulistar93)
 - 이지수 (chorista)
 - 최성용 (sychoi1996)
-- 유인완 (iwyoo)
+- 유인완 (iwyoo) : M.S. candidate in UNIST C.S.
+- 전기영 (freestar0501) : M.S. candidate in UNIST C.S.
 - 김승호 (isho)
 - 박상대 (dad0100)
 - 손수민 (ty79450)
@@ -42,7 +43,7 @@ comments: false
 - 박채영 (codud1026)
 - 이현수 (telljoy)
 - 이충기 (asdzxc6442)
-- 정인중 (mu29)
+- 정인중 ([mu29](http://yeoubi.net/)) : Software Engineer at [pedaling](https://pedaling.net/)
 - 남우승 (ssa1137)
 - Adina (adina)
 
@@ -62,7 +63,7 @@ comments: false
 - 김기철 (ds3nyi)
 - 김민규 (kimmg0008)
 - 김승회 (ksh7534)
-- 김도경 (halt)
+- 김도경 (halt) : Software Engineer at [pedaling](https://pedaling.net/)
 - 김기현 (po01003)
 - 정현기 (nahouja1)
 - 이창민 (baram)
@@ -70,18 +71,18 @@ comments: false
 
 ## 2nd
 
-- 김태훈 ([carpedm20](http://carpedm20.github.io/)) : Vingle
-- 정의진 (nuguzi7)
+- 김태훈 ([carpedm20](http://carpedm20.github.io/)) : Software Engineer at Vingle
+- 정의진 (nuguzi7) : M.S. candidate in UNIST C.S.
 - 조재휘 (jjh94210)
 
 ## 1st
 
 - 고건일 (hanulgoh)
 - 곽재원 ([sovi](https://kr.linkedin.com/pub/jaewon-kwak/93/a40/113)) : M.S. candidate in UNIST C.S.
-- 김연근 (shoutnk) : M.S. candidate in KAIST
+- 김연근 (shoutnk) : Ph.D candidate in KAIST
 - 이시몬 (simon)
 - 이승용 (furymonkey)
-- 조재민 (silvara)
+- 조재민 (silvara) : M.S. candidate in UNIST C.S.
 - 한충우 ([tunz](http://blog.tunz.kr/)) : M.S. candidate in KAIST C.S.
 - 우민규 (dnalsrb7)
 - 이승현 (lsh8482)

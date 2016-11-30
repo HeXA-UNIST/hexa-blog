@@ -71,7 +71,7 @@ comments: false
 
 ## 2nd
 
-- 김태훈 ([carpedm20](http://carpedm20.github.io/)) : Software Engineer at Vingle
+- 김태훈 ([carpedm20](http://carpedm20.github.io/)) : Software Engineer at Devsisters
 - 정의진 (nuguzi7) : M.S. candidate in UNIST C.S.
 - 조재휘 (jjh94210)
 

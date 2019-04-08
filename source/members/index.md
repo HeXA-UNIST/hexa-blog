@@ -122,14 +122,14 @@ comments: false
 
 ## 4th
 
-- 김유창 (jjkyc)
+- 김유창 ([HealthyVegeta](http://healthyvegeta.github.io))
 - 곽희나 ([dotaitch](https://github.com/dotaitch))
 - 오현준 (dhguswns23)
 - 이송이 (rookie)
 - 이창민 (ulistar93)
 - 이지수 (chorista)
 - 최성용 (sychoi1996)
-- 유인완 (iwyoo) : M.S. candidate in UNIST C.S.
+- 유인완 (iwyoo) : Research Engineer at [Lunit](https://lunit.io/)
 - 전기영 (freestar0501) : M.S. candidate in UNIST C.S.
 - 김승호 (isho)
 - 박상대 (dad0100)
@@ -189,7 +189,7 @@ comments: false
 - 이승용 (furymonkey) : Software Engineer at [Krafton](https://www.krafton.com/kr/)
 - 조재민 (silvara) : M.S. candidate in UNIST CS
 - 한충우 ([tunz](http://blog.tunz.kr/)) : Software Engineer at Naver
-- 우민규 ([mgwoo](http://mgwoo.github.io/)) : Ph.D. candidate in UCSD EE/CS
+- 우민규 ([mgwoo](http://mgwoo.github.io/)) : Ph.D. candidate in UCSD [abkgroup](https://vlsicad.ucsd.edu/)
 - 이승현 (lsh8482) : M.S. candidate in UNIST EE
 
 ## Presidents

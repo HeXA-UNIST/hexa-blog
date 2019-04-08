@@ -186,7 +186,7 @@ comments: false
 - 곽재원 ([sovi](https://kr.linkedin.com/pub/jaewon-kwak/93/a40/113)) : Software Engineer at Naver
 - 김연근 ([shoutnk](http://nss.kaist.ac.kr/)) : Ph.D. candidate in KAIST CS
 - 이시몬 (simon)
-- 이승용 (furymonkey) : Software Engineer at Bluehole
+- 이승용 (furymonkey) : Software Engineer at [Krafton](https://www.krafton.com/kr/)
 - 조재민 (silvara) : M.S. candidate in UNIST CS
 - 한충우 ([tunz](http://blog.tunz.kr/)) : Software Engineer at Naver
 - 우민규 ([mgwoo](http://mgwoo.github.io/)) : Ph.D. candidate in UCSD EE/CS

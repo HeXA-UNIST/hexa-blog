@@ -36,7 +36,6 @@ comments: false
 - 허지은
 - 황찬휘
 
-
 ## 8th
 
 - 김유겸

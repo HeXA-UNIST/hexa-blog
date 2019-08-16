@@ -147,7 +147,7 @@ comments: false
 - 김민찬 (minchan0712)
 - 박채영 (codud1026)
 - 이현수 (telljoy)
-- 이충기 (asdzxc6442)
+- 이충기 ([asdzxc6442](http://chungyi347.github.io/))
 - 정인중 ([mu29](http://yeoubi.net/)) : Software Engineer at [pedaling](https://pedaling.net/)
 - 남우승 (ssa1137)
 - Adina (adina)
@@ -156,7 +156,7 @@ comments: false
 
 - 고경완 (aqaqaqaq)
 - 정재훈 (sharksfin)
-- 김기환 (kh1875)
+- 김기환 ([kh1875](http://simulacre7.github.io))
 - 정상빈 (tolight20)
 - 문경준 (edgar)
 - 최영희 (tiarirueu)

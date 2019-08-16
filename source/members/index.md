@@ -166,7 +166,7 @@ comments: false
 - 이기웅 (sopp0002)
 - 김기철 (ds3nyi)
 - 김민규 (kimmg0008)
-- 김승회 (ksh7534)
+- 김승회 ([ksh7534](https://ksh7534.giuthub.io))
 - 김도경 (halt) : Software Engineer at [pedaling](https://pedaling.net/)
 - 김기현 (po01003)
 - 정현기 (nahouja1)

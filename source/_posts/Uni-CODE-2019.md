@@ -10,9 +10,9 @@ tags:
 다음 대회도 여러분들의 많은 참여바랍니다.
 또한, 문제 및 풀이, 스코어보드가 공개되었습니다.
 
-[문제][https://www.acmicpc.net/category/detail/2105]
-[풀이][http://hexa-unist.github.io/2019/11/02/Uni-CODE-2019-solution/]
-[스코어보드][https://www.acmicpc.net/contest/spotboard/472]
+[문제](https://www.acmicpc.net/category/detail/2105)
+[풀이](http://hexa-unist.github.io/2019/11/02/Uni-CODE-2019-solution/)
+[스코어보드](https://www.acmicpc.net/contest/spotboard/472)
 
 글쓴이 : 박원
 

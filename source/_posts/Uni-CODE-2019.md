@@ -1,7 +1,7 @@
 title: Uni-CODE 2019
 date: 2019-11-05 17:21:49
 tags:
-Uni-Code_2019
+- Uni-Code_2019
 ---
 
 제 1회 UNIST 알고리즘 프로그래밍 경진대회 Uni-CODE 가 성공적으로 마무리되었습니다!!

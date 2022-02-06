@@ -36,29 +36,13 @@ comments: false
 - 전기영 (freestar0501) : M.S. candidate in UNIST C.S.
 - 정인중 ([mu29](http://yeoubi.net/)) : Software Engineer at [pedaling](https://pedaling.net/)
 
-[김유창](http://healthyvegeta.github.io)) [곽희나](https://github.com/dotaitch)) [오현준](https://github.com/dhguswns23) [이송이](https://github.com/rookie) [이창민](https://github.com/ulistar93) [이지수](https://github.com/chorista) [최성용](https://github.com/sychoi1996) [김승호](https://github.com/isho) [박상대](https://github.com/dad0100) [손수민](https://github.com/ty79450) [윤원준](https://github.com/starjun24) [송예람](https://github.com/tdf3820) [염준영](https://github.com/yoeum0013) [오정민](https://github.com/als0414) [황원준](https://github.com/gwaka) [이강민](https://github.com/ygangmin) [이광호](https://github.com/khlee369) [김도훈](https://github.com/elvis03) [문성우](https://github.com/LayMoon) [정승필](https://github.com/smjsp7) [김민찬](https://github.com/minchan0712) [박채영](https://github.com/codud1026) [이현수](https://github.com/telljoy) [이충기](http://chungyi347.github.io/)) [남우승](https://github.com/ssa1137) [Adina](https://github.com/adina)
+[김유창](http://healthyvegeta.github.io) [곽희나](https://github.com/dotaitch) [오현준](https://github.com/dhguswns23) [이송이](https://github.com/rookie) [이창민](https://github.com/ulistar93) [이지수](https://github.com/chorista) [최성용](https://github.com/sychoi1996) [김승호](https://github.com/isho) [박상대](https://github.com/dad0100) [손수민](https://github.com/ty79450) [윤원준](https://github.com/starjun24) [송예람](https://github.com/tdf3820) [염준영](https://github.com/yoeum0013) [오정민](https://github.com/als0414) [황원준](https://github.com/gwaka) [이강민](https://github.com/ygangmin) [이광호](https://github.com/khlee369) [김도훈](https://github.com/elvis03) [문성우](https://github.com/LayMoon) [정승필](https://github.com/smjsp7) [김민찬](https://github.com/minchan0712) [박채영](https://github.com/codud1026) [이현수](https://github.com/telljoy) [이충기](http://chungyi347.github.io/) [남우승](https://github.com/ssa1137) [Adina](https://github.com/adina)
 
 ## 3rd
 - 김도경 (halt) : Software Engineer at [pedaling](https://pedaling.net/)
 - 한명균 (hmg0228) : M.S. candidate in UNIST CS
 
-- 고경완 (aqaqaqaq)
-- 정재훈 (sharksfin)
-- 김기환 ([kh1875](http://simulacre7.github.io))
-- 정상빈 (tolight20)
-- 문경준 (edgar)
-- 최영희 (tiarirueu)
-- 최준원 (cdk5801)
-- 임정택 (wjdxor0405)
-- 양홍준 (yhj0428)
-- 이기웅 (sopp0002)
-- 김기철 (ds3nyi)
-- 김민규 (kimmg0008)
-- 김승회 ([ksh7534](https://ksh7534.github.io))
-- 김기현 (po01003)
-- 정현기 (nahouja1)
-- 이창민 (baram)
-- 김지열 (jykim7808)
+[고경완](https://github.com/aqaqaqaq) [정재훈](https://github.com/sharksfin) [김기환](http://simulacre7.github.io) [정상빈](https://github.com/tolight20) [문경준](https://github.com/edgar) [최영희](https://github.com/tiarirueu) [최준원](https://github.com/cdk5801) [임정택](https://github.com/wjdxor0405) [양홍준](https://github.com/yhj0428) [이기웅](https://github.com/sopp0002) [김기철](https://github.com/ds3nyi) [김민규](https://github.com/kimmg0008) [김승회](https://ksh7534.github.io) [김기현](https://github.com/po01003) [정현기](https://github.com/nahouja1) [이창민](https://github.com/baram) [김지열](https://github.com/jykim7808)
 
 ## 2nd
 
@@ -71,12 +55,12 @@ comments: false
 - 고건일 (hanulgoh) : Software Engineer at Nexon
 - 곽재원 ([sovi](https://kr.linkedin.com/pub/jaewon-kwak/93/a40/113)) : Software Engineer at Naver
 - 김연근 ([shoutnk](http://nss.kaist.ac.kr/)) : Ph.D. candidate in KAIST CS
-- 이시몬 (simon)
 - 이승용 (furymonkey) : Software Engineer at [Krafton](https://www.krafton.com/kr/)
 - 조재민 (silvara) : M.S. candidate in UNIST CS
 - 한충우 ([tunz](http://blog.tunz.kr/)) : Software Engineer at Naver
 - 우민규 ([mgwoo](http://mgwoo.github.io/)) : Ph.D. candidate in UCSD [abkgroup](https://vlsicad.ucsd.edu/)
 - 이승현 (lsh8482) : M.S. candidate in UNIST EE
+- 이시몬 (simon)
 
 ## Presidents
 - 13대 회장 : 홍준화 / 부회장 : 정성윤

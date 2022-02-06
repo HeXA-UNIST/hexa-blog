@@ -3,7 +3,9 @@ date: 2015-08-04 23:07:50
 comments: false
 ---
 
-## 9th
+<details>
+<summary>## 9th</summary>
+<div markdown="1">
 - 김은서 (fran5804) 
 - 권상희 (sh0408sh)
 - 권혁민
@@ -40,6 +42,8 @@ comments: false
 - 김동은
 - 유인재
 - 장형준
+</div>
+</details>
 
 
 ## 8th

@@ -16,13 +16,14 @@ comments: false
 
 ## 8th
 
-김유겸 남현서 박진우 배상현 서의현 심재환 심준보 [안윤표](https://github.com/Raon1123) 안재현 이상혁 이재혁 임수철 장우혁 최유빈 허정인 홍승표 [박지원](https://github.com/jwp18) 이서
+김유겸 남현서 박진우 배상현 서의현 심재환 심준보 [안윤표](https://github.com/Raon1123) 안재현 이상혁 이재혁 임수철 장우혁 최유빈 허정인 홍승표 [박지원](https://github.com/jwp18) 이서윤
 
 ## 7th
 
 임도연 김도연 김성욱 김소웅 김찬수 박다현 배한규 한동규 이승환 이풍성 최준영 함형찬 위덕현 정민우
 
 ## 6th
+- 김상훈 ([seiker](https://seiker.kr/)): Software Engineer at Lunit
 
 강병관 김미경 김상훈 김승찬 김은혜 김지경 김지아 김찬민 김태영 남정석 박상빈 박승호 박찬호 오윤정 이건우 이승환 이재성 장찬 전웅배 정지운 최화윤
 
@@ -33,14 +34,14 @@ comments: false
 ## 4th
 
 - 유인완 (iwyoo) : Research Engineer at [Lunit](https://lunit.io/)
-- 전기영 (freestar0501) : M.S. candidate in UNIST C.S.
+- 전기영 (freestar0501) : Ph.D. candidate in UNIST C.S.
 - 정인중 ([mu29](http://yeoubi.net/)) : Software Engineer at [pedaling](https://pedaling.net/)
 
 [김유창](http://healthyvegeta.github.io) [곽희나](https://github.com/dotaitch) [오현준](https://github.com/dhguswns23) [이송이](https://github.com/rookie) [이창민](https://github.com/ulistar93) [이지수](https://github.com/chorista) [최성용](https://github.com/sychoi1996) [김승호](https://github.com/isho) [박상대](https://github.com/dad0100) [손수민](https://github.com/ty79450) [윤원준](https://github.com/starjun24) [송예람](https://github.com/tdf3820) [염준영](https://github.com/yoeum0013) [오정민](https://github.com/als0414) [황원준](https://github.com/gwaka) [이강민](https://github.com/ygangmin) [이광호](https://github.com/khlee369) [김도훈](https://github.com/elvis03) [문성우](https://github.com/LayMoon) [정승필](https://github.com/smjsp7) [김민찬](https://github.com/minchan0712) [박채영](https://github.com/codud1026) [이현수](https://github.com/telljoy) [이충기](http://chungyi347.github.io/) [남우승](https://github.com/ssa1137) [Adina](https://github.com/adina)
 
 ## 3rd
 - 김도경 (halt) : Software Engineer at [pedaling](https://pedaling.net/)
-- 한명균 (hmg0228) : M.S. candidate in UNIST CS
+- 한명균 (hmg0228) : Ph.D. candidate in UNIST CS
 
 [고경완](https://github.com/aqaqaqaq) [정재훈](https://github.com/sharksfin) [김기환](http://simulacre7.github.io) [정상빈](https://github.com/tolight20) [문경준](https://github.com/edgar) [최영희](https://github.com/tiarirueu) [최준원](https://github.com/cdk5801) [임정택](https://github.com/wjdxor0405) [양홍준](https://github.com/yhj0428) [이기웅](https://github.com/sopp0002) [김기철](https://github.com/ds3nyi) [김민규](https://github.com/kimmg0008) [김승회](https://ksh7534.github.io) [김기현](https://github.com/po01003) [정현기](https://github.com/nahouja1) [이창민](https://github.com/baram) [김지열](https://github.com/jykim7808)
 

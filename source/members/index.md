@@ -28,8 +28,9 @@ comments: false
 강병관 김미경 김상훈 김승찬 김은혜 김지경 김지아 김찬민 김태영 남정석 박상빈 박승호 박찬호 오윤정 이건우 이승환 이재성 장찬 전웅배 정지운 최화윤
 
 ## 5th
+- 김대화 ([daehwa](https://daehwa.github.io/)): Ph.D. candidate at CMU SCS
 
-[김태현](https://github.com/kgyoo8232) [김주원](https://github.com/kjw940506) [오민선](https://github.com/minsunny5) [문혜진](https://github.com/hyj5579) [김동민](https://github.com/rocky112358) [김승현](https://github.com/wingcoke) [이지향](https://github.com/haeng1605) [김대화](https://github.com/eoghk123) [배재연](https://github.com/jeje910) 김연준 김택수 김환희 문혜진 장동원 최가영 하정민 최지수 민초로 이한 
+[김태현](https://github.com/kgyoo8232) [김주원](https://github.com/kjw940506) [오민선](https://github.com/minsunny5) [문혜진](https://github.com/hyj5579) [김동민](https://github.com/rocky112358) [김승현](https://github.com/wingcoke) [이지향](https://github.com/haeng1605) [김대화](https://daehwa.github.io/) [배재연](https://github.com/jeje910) 김연준 김택수 김환희 문혜진 장동원 최가영 하정민 최지수 민초로 이한 
 
 ## 4th
 

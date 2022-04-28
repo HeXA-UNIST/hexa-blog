@@ -44,6 +44,7 @@ comments: false
 ## 3rd
 - 김도경 (halt) : Software Engineer at [pedaling](https://pedaling.net/)
 - 한명균 (hmg0228) : Ph.D. candidate in UNIST CS
+- 김기환 ([simulacre7](https://simulacre7.github.io/resume/)) : Software Engineer at [RIDI](https://ridicorp.com/)
 
 [고경완](https://github.com/aqaqaqaq) [정재훈](https://github.com/sharksfin) [김기환](https://simulacre7.github.io/resume/) [정상빈](https://github.com/tolight20) [문경준](https://github.com/edgar) [최영희](https://github.com/tiarirueu) [최준원](https://github.com/cdk5801) [임정택](https://github.com/wjdxor0405) [양홍준](https://github.com/yhj0428) [이기웅](https://github.com/sopp0002) [김기철](https://github.com/ds3nyi) [김민규](https://github.com/kimmg0008) [김승회](https://ksh7534.github.io) [김기현](https://github.com/po01003) [정현기](https://github.com/nahouja1) [이창민](https://github.com/baram) [김지열](https://github.com/jykim7808)
 

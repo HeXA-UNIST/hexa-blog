@@ -1,76 +1,97 @@
+---
+name: Английский
 title:
   archive: Архив
   category: Категория
   tag: Тэг
-
+  schedule: Календарь
 menu:
-  home: Домой
+  home: Главная
   archives: Архив
   categories: Категории
   tags: Тэги
   about: О сайте
-  search: поиск
-
+  search: Поиск
+  schedule: Планировщик
+  sitemap: Карта сайта
+  commonweal: Страница 404
 sidebar:
   overview: Обзор
   toc: Содержание
-
 post:
-  posted: отправлено
-  in: в
-  read_more: Читать дальше
-  untitled: Без имени
-  toc_empty: Этот пост не имеет оглавления
-
-page:
-  totally: Всего
-  tags: тэги
-
+  posted: Размещено
+  edited: Изменено
+  created: Создано
+  modified: Изменено
+  edit: Редактировать запись
+  in: В категории
+  read_more: Далее...
+  untitled: Безимянный
+  sticky: Ссылка
+  views: Просмотров
+  related_posts: Похожие записи
+  copyright:
+    author: Автор записи
+    link: Ссылка на запись
+    post_author: Авторы
+    post_link: Оригинал этой статьи был написан
+    license_title: Информация об авторских правах
+    license_content: "Все записи на этом сайте защищены лицензией %s, если не указано дополнительно."
 footer:
-  powered: "Powered by %s"
-  theme: Theme
-
+  powered: "Генератор — %s"
+  total_views: Всего просмотров
+  total_visitors: Всего посетителей
 counter:
   tag_cloud:
-    zero: Нет тэгов
-    one: 1 тэг
-    two: "%d тэга всего"
-    three: "%d тэга всего"
-    four: "%d тэга всего"
-    other: "%d тэгов всего"
-
+    zero: Нет тэгов.
+    one: 1 тэг.
+    other: "%d тэгов всего."
   categories:
-    zero: Нет категорий
-    one: 1 категория
-    two: "%d категории всего"
-    three: "%d категории всего"
-    four: "%d категории всего"
-    other: "%d категорий всего"
-
+    zero: Нет категорий.
+    one: 1 категория.
+    other: "%d категорий всего."
   archive_posts:
     zero: Нет записей.
     one: 1 запись.
-    two: "%d записи всего."
-    three: "%d записи всего."
-    four: "%d записи всего."
     other: "%d записей всего."
-
 state:
-  posts: записи
-  pages: страницы
-  tags: тэги
-  categories: категории
-
+  posts: Архив
+  tags: Тэги
+  categories: Категории
+search:
+  placeholder: Поиск...
+  empty: "По запросу ничего не найдено: %s"
+  hits_time: "%s результатов найдено за %s мс"
+  hits: "%s результатов найдено"
 cheers:
   um: Эм..
-  ok: OK
+  ok: ОК
   nice: Неплохо
   good: Хорошо
   great: Замечательно
   excellent: Великолепно
-
 keep_on: Продолжаю писать.
-
 symbol:
-  comma: ', '
-  period: '. '
+  comma: ", "
+  period: ". "
+  colon: ": "
+reward:
+  donate: Донат
+  wechatpay: WeChat Pay
+  alipay: Alipay
+  paypal: PayPal
+  bitcoin: Биткоин
+follow_me:
+  welcome: Добро пожаловать на другие мои издательские каналы
+accessibility:
+  nav_toggle: Показать/скрыть меню
+  prev_page: Предыдущая страница
+  next_page: Следующая страница
+  back_to_top: В начало
+  select_lang: Выберите язык
+symbols_count_time:
+  count: Кол-во символов в статье
+  count_total: Общее кол-во символов
+  time: Время чтения
+  time_total: Общее время чтения
+  time_minutes: мин.

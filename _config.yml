@@ -70,7 +70,7 @@ theme: next
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/HeXA-UNIST/hexa-blog.git
+  repo: https://github.com/HeXA-UNIST/hexa-unist.github.io.git
   branch: master
   message: update
 

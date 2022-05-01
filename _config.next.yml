@@ -368,7 +368,7 @@ codeblock:
   # All available themes: https://theme-next.js.org/highlight/
   theme:
     light: default
-    dark: stackoverflow-dark
+    dark: default #stackoverflow-dark
   prism:
     light: prism
     dark: prism-dark

@@ -9,7 +9,7 @@ comments: false
 
 ## 10th
 
-강근영 권용준 김덕현 김선욱 김주원 김현서 노진 노승환 박예지 박이내 박수민 박태영 서민수 이훈석 임창현 장영웅 정민서 정성윤 조승민 최진우 한태준 허보인 [홍준화](https://github.com/junwha0511)
+강근영 권용준 김덕현 [김선욱](https://5eonukkim.github.io/) 김주원 김현서 노진 노승환 박예지 박이내 박수민 박태영 서민수 이훈석 임창현 장영웅 정민서 정성윤 조승민 최진우 한태준 허보인 [홍준화](https://github.com/junwha0511)
 
 ## 9th
 [김은서](fran5804) [권상희](sh0408sh) 권혁민 김서준 김예나 김진서 김진혁 김창현 김태수 김한수 김형섭 민경훈 박세영 박 원 박지안 손정한 안혜진 양우림 윤이지 이동규 이용훈 이준수 전병훈 정강산 정성훈 조성제 조현진 최예진 최지혁 허지은 황찬휘 권상민 박찬영 김동은 유인재 장형준
@@ -57,26 +57,27 @@ comments: false
 ## 1st
 
 - 고건일 (hanulgoh) : Software Engineer at Nexon
-- 곽재원 ([sovi](https://kr.linkedin.com/pub/jaewon-kwak/93/a40/113)) : Software Engineer at Naver
+- 곽재원 ([sovi](https://kr.linkedin.com/pub/jaewon-kwak/93/a40/113)) : Software Engineer at Amazon, Vancouver
 - 김연근 ([shoutnk](http://nss.kaist.ac.kr/)) : Ph.D. candidate in KAIST CS
 - 이승용 (furymonkey) : Software Engineer at [Krafton](https://www.krafton.com/kr/)
 - 조재민 (silvara) : M.S. candidate in UNIST CS
-- 한충우 ([tunz](http://blog.tunz.kr/)) : Software Engineer at Naver
+- 한충우 ([tunz](http://blog.tunz.kr/)) : Software Engineer at Microsoft
 - 우민규 ([mgwoo](http://mgwoo.github.io/)) : Ph.D. candidate in UCSD [abkgroup](https://vlsicad.ucsd.edu/)
 - 이승현 (lsh8482) : M.S. candidate in UNIST EE
 - 이시몬 (simon)
 
 ## Presidents
-- 13대 회장 : 홍준화 / 부회장 : 정성윤
-- 12대 회장 : 민경훈 / 부회장 : 박 원
-- 11대 회장 : 안윤표 / 부회장 : 박지원
-- 10대 회장 : 박다현 / 부회장 : 김연준
-- 9대 회장 : 김동민 / 부회장 : 김연준
-- 8대 회장 : 김동민 / 부회장 : 김대화
-- 7대 회장 : 김유창 / 부회장 : 곽희나
-- 6대 회장 : 김유창 / 부회장 : 김기철
-- 5대 회장 : 한명균 / 부회장 : 김민규
-- 4대 회장 : 정의진
-- 3대 회장 : 김태훈 / 부회장 : 한충우
-- 2대 회장 : 곽재원 / 부회장 : 한충우
-- 1대 회장 : 고건일
+- 14대 회장(2022) : 이현석 / 부회장 : 김현주
+- 13대 회장(2021) : 홍준화 / 부회장 : 정성윤
+- 12대 회장(2020) : 민경훈 / 부회장 : 박 원
+- 11대 회장(2019) : 안윤표 / 부회장 : 박지원
+- 10대 회장(2018) : 박다현 / 부회장 : 김연준
+- 9대 회장(2017) : 김동민 / 부회장 : 김연준
+- 8대 회장(2016) : 김동민 / 부회장 : 김대화
+- 7대 회장(2015) : 김유창 / 부회장 : 곽희나
+- 6대 회장(2014) : 한명균 / 부회장 : 김기철
+- 5대 회장(2013) : 정의진 / 부회장 : 김민규
+- 4대 회장(2013) : 김태훈 / 부회장 : 유인완 
+- 3대 회장(2012) : 김태훈 / 부회장 : 한충우
+- 2대 회장(2012) : 곽재원 / 부회장 : 한충우
+- 1대 회장(2011) : 고건일 / 부회장 : 곽재원

@@ -31,7 +31,7 @@ comments: false
 - 김대화 ([daehwa](https://daehwa.github.io/)): Ph.D. candidate at CMU SCS
 - 김동민 ([rocky112358](https://g.dev/sleepybear)): Data Engineer @ APR Corp.
 
-[김태현](https://github.com/kgyoo8232) [김주원](https://github.com/kjw940506) [오민선](https://github.com/minsunny5) [문혜진](https://github.com/hyj5579) [김동민](https://g.dev/sleepybear) [김승현](https://github.com/wingcoke) [이지향](https://github.com/haeng1605) [김대화](https://daehwa.github.io/) [배재연](https://github.com/jeje910) 김연준 김택수 김환희 문혜진 장동원 최가영 하정민 최지수 민초로 이한 
+[김태현](https://github.com/kimxogus) [김주원](https://github.com/kjw940506) [오민선](https://github.com/minsunny5) [문혜진](https://github.com/hyj5579) [김동민](https://g.dev/sleepybear) [김승현](https://github.com/wingcoke) [이지향](https://github.com/haeng1605) [김대화](https://daehwa.github.io/) [배재연](https://github.com/jeje910) 김연준 김택수 김환희 문혜진 장동원 최가영 하정민 최지수 민초로 이한 
 
 ## 4th
 

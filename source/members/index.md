@@ -12,7 +12,7 @@ comments: false
 
 ## 10th
 
-강근영 권용준 김덕현 [김선욱](https://5eonukkim.github.io/) 김주원 김현서 노진 노승환 박예지 박이내 박수민 박태영 서민수 이훈석 임창현 장영웅 정민서 정성윤 조승민 최진우 한태준 허보인 [홍준화](https://github.com/junwha0511)
+강근영 권용준 김덕현 [김선욱](https://seonukkim.github.io/) 김주원 김현서 노진 노승환 박예지 박이내 박수민 박태영 서민수 이훈석 임창현 장영웅 정민서 정성윤 조승민 최진우 한태준 허보인 [홍준화](https://github.com/junwha0511)
 
 ## 9th
 [김은서](fran5804) [권상희](sh0408sh) 권혁민 김서준 김예나 김진서 김진혁 김창현 김태수 김한수 김형섭 민경훈 박세영 박 원 박지안 손정한 안혜진 양우림 윤이지 이동규 이용훈 이준수 전병훈 정강산 정성훈 조성제 조현진 최예진 최지혁 허지은 황찬휘 권상민 박찬영 김동은 유인재 장형준
@@ -32,44 +32,47 @@ comments: false
 
 ## 5th
 - 김대화 ([daehwa](https://daehwa.github.io/)): Ph.D. candidate at CMU SCS
-- 김동민 ([rocky112358](https://g.dev/sleepybear)): Data Engineer @ APR Corp.
+- 김동민 ([rocky112358](https://g.dev/sleepybear)): Software Engineer at [COOKIEPLACE](https://crepe.cm/)
 
 [김태현](https://github.com/kimxogus) [김주원](https://github.com/kjw940506) [오민선](https://github.com/minsunny5) [문혜진](https://github.com/hyj5579) [김동민](https://g.dev/sleepybear) [김승현](https://github.com/wingcoke) [이지향](https://github.com/haeng1605) [김대화](https://daehwa.github.io/) [배재연](https://github.com/jeje910) 김연준 김택수 김환희 문혜진 장동원 최가영 하정민 최지수 민초로 이한 
 
 ## 4th
 
-- 유인완 (iwyoo) : Research Engineer at [Lunit](https://lunit.io/)
+- 유인완 (iwyoo) : Research Engineer at [LG AI Research](https://www.lgresearch.ai/)
 - 전기영 (freestar0501) : Ph.D. candidate in UNIST C.S.
-- 정인중 ([mu29](http://yeoubi.net/)) : Software Engineer at [pedaling](https://pedaling.net/)
+- 정인중 ([mu29](http://yeoubi.net/)) : Software Engineer at [CLASS101](https://class101.net/ko)
 
-[김유창](http://healthyvegeta.github.io) [곽희나](https://github.com/dotaitch) [오현준](https://github.com/dhguswns23) [이송이](https://github.com/rookie) [이창민](https://github.com/ulistar93) [이지수](https://github.com/chorista) [최성용](https://github.com/sychoi1996) [김승호](https://github.com/isho) [박상대](https://github.com/dad0100) [손수민](https://github.com/ty79450) [윤원준](https://github.com/starjun24) [송예람](https://github.com/tdf3820) [염준영](https://github.com/yoeum0013) [오정민](https://github.com/als0414) [황원준](https://github.com/gwaka) [이강민](https://github.com/ygangmin) [이광호](https://github.com/khlee369) [김도훈](https://github.com/elvis03) [문성우](https://github.com/LayMoon) [정승필](https://github.com/smjsp7) [김민찬](https://github.com/minchan0712) [박채영](https://github.com/codud1026) [이현수](https://github.com/telljoy) [이충기](http://chungyi347.github.io/) [남우승](https://github.com/ssa1137) [Adina](https://github.com/adina)
+[김유창](http://healthyvegeta.github.io) [곽희나](https://github.com/dotaitch) [오현준](https://github.com/dhguswns23) [이송이](https://github.com/rookie) [이창민](https://github.com/ulistar93) [이지수](https://github.com/chorista) [최성용](https://github.com/sychoi1996) [김승호](https://github.com/isho) [박상대](https://github.com/dad0100) [손수민](https://github.com/ty79450) [윤원준](https://github.com/starjun24) [송예람](https://github.com/tdf3820) [염준영](https://github.com/yoeum0013) [오정민](https://github.com/als0414) [황원준](https://github.com/gwaka) [이강민](https://github.com/ygangmin) [이광호](https://github.com/khlee369) [김도훈](https://github.com/elvis03) [문성우](https://github.com/LayMoon) [정승필](https://github.com/smjsp7) [김민찬](https://github.com/minchan0712) [박채영](https://github.com/codud1026) [이현수](https://github.com/telljoy) [이충기](http://chungyi347.github.io/) [남우승](https://github.com/ssa1137) 유인완 전기영 정인중 [Adina](https://github.com/adina)
 
 ## 3rd
-- 김도경 (halt) : Software Engineer at [pedaling](https://pedaling.net/)
-- 한명균 (hmg0228) : Ph.D. candidate in UNIST CS
+- 김도경 (halt) : Co-Founder and Developer at [CLASS101](https://class101.net/ko)
+- 한명균 (hmg0228) : Researcher at [ETRI](https://www.etri.re.kr/intro.html)
 - 김기환 ([simulacre7](https://simulacre7.github.io/resume/)) : Software Engineer at [RIDI](https://ridicorp.com/)
+- 김기철 ([ds3nyi](https://github.com/ds3nyi)) : Senior Staff Researcher at [S2W](https://s2w.inc/)
+- [김민규](https://www.linkedin.com/in/mingyu-kim-162a06165/) : Technical Lead at [COOKIEPLACE](https://crepe.cm/)
 
-[고경완](https://github.com/aqaqaqaq) [정재훈](https://github.com/sharksfin) [김기환](https://simulacre7.github.io/resume/) [정상빈](https://github.com/tolight20) [문경준](https://github.com/edgar) [최영희](https://github.com/tiarirueu) [최준원](https://github.com/cdk5801) [임정택](https://github.com/wjdxor0405) [양홍준](https://github.com/yhj0428) [이기웅](https://github.com/sopp0002) [김기철](https://github.com/ds3nyi) [김민규](https://github.com/kimmg0008) [김승회](https://ksh7534.github.io) [김기현](https://github.com/po01003) [정현기](https://github.com/nahouja1) [이창민](https://github.com/baram) [김지열](https://github.com/jykim7808)
+[고경완](https://github.com/aqaqaqaq) [정재훈](https://github.com/sharksfin) [김기환](https://simulacre7.github.io/resume/) [정상빈](https://github.com/tolight20) [문경준](https://github.com/edgar) [최영희](https://github.com/tiarirueu) [최준원](https://github.com/cdk5801) [임정택](https://github.com/wjdxor0405) [양홍준](https://github.com/yhj0428) [이기웅](https://github.com/sopp0002) [김기철](https://github.com/ds3nyi) [김민규](https://www.linkedin.com/in/mingyu-kim-162a06165/) [김승회](https://ksh7534.github.io) [김기현](https://github.com/po01003) [정현기](https://github.com/nahouja1) [이창민](https://github.com/baram) [김지열](https://github.com/jykim7808) 김도경 한명균
 
 ## 2nd
 
-- 김태훈 ([carpedm20](http://carpedm20.github.io/)) : Research Engineer at [OpenAI](https://openai.com/)
+- 김태훈 ([carpedm20](http://carpedm20.github.io/)) : Head of AI at [SHIFT UP](https://carpedm30.notion.site/,mSHIFT-UP-AI-Labs-2cc71f48eb1140d09a439ab0b10bdb7b), ex-[OpenAI](https://openai.com/)
 - 정의진 (nuguzi7) : M.S. candidate in UNIST C.S.
 - 조재휘 (jjh94210)
 
 ## 1st
 
-- 고건일 (hanulgoh) : Software Engineer at Nexon
-- 곽재원 ([sovi](https://kr.linkedin.com/pub/jaewon-kwak/93/a40/113)) : Software Engineer at Amazon, Vancouver
-- 김연근 ([shoutnk](http://nss.kaist.ac.kr/)) : Ph.D. candidate in KAIST CS
+- 고건일 (hanulgoh) : ex-[Nexon](https://www.nexon.com/Home/Game), [HYBE](https://hybecorp.com/kor/main)
+- 곽재원 ([sovi](https://www.linkedin.com/in/jaewon-kwak/)) : Software Engineer at [Mercari](https://jp.mercari.com/), ex-[Amazon](https://www.amazon.com/)
+- 김연근 ([shoutnk](http://nss.kaist.ac.kr/)) : Senior Staff Researcher at [S2W](https://s2w.inc/)
 - 이승용 (furymonkey) : Software Engineer at [Krafton](https://www.krafton.com/kr/)
 - 조재민 (silvara) : M.S. candidate in UNIST CS
 - 한충우 ([tunz](http://blog.tunz.kr/)) : Software Engineer at Microsoft
-- 우민규 ([mgwoo](http://mgwoo.github.io/)) : Ph.D. candidate in UCSD [abkgroup](https://vlsicad.ucsd.edu/)
-- 이승현 (lsh8482) : M.S. candidate in UNIST EE
+- 우민규 ([mgwoo](http://mgwoo.github.io/)) : Senior Engineer at [Qualcomm](https://www.qualcomm.com/)
+- 이승현 (lsh8482) : Semiconductor Process Architerture Engineer at Samsung Electronics
 - 이시몬 (simon)
 
 ## Presidents
+- 16대 회장(2023.07) : 박예찬 / 부회장 : 오주한
 - 15대 회장(2022.08) : 김선욱 / 부회장 : 박예찬
 - 14대 회장(2022.03) : 이현석 / 부회장 : 김현주
 - 13대 회장(2021.03) : 홍준화 / 부회장 : 정성윤

@@ -51,7 +51,7 @@ comments: false
 
 ## 3rd
 - 김도경 (halt) : Co-Founder and Developer at [CLASS101](https://class101.net/ko)
-- 한명균 (hmg0228) : Researcher at [ETRI](https://www.etri.re.kr/intro.html), Professor of Computer Science at KNU
+- 한명균 (hmg0228) : Researcher at [ETRI](https://www.etri.re.kr/intro.html), Professor of Computer Science at KNU(경북대학교)
 - 김기환 ([simulacre7](https://simulacre7.github.io/resume/)) : Software Engineer at [RIDI](https://ridicorp.com/)
 - 김기철 ([ds3nyi](https://github.com/ds3nyi)) : Senior Staff Researcher at [S2W](https://s2w.inc/)
 - [김민규](https://www.linkedin.com/in/mingyu-kim-162a06165/) : Technical Lead at [COOKIEPLACE](https://crepe.cm/)
